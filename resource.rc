@@ -1,0 +1,26 @@
+#include "resource.h"
+
+// icons
+R_ICON4848 ICON DISCARDABLE "resources/4848.ico"
+R_ICON3232 ICON DISCARDABLE "resources/3232.ico"
+R_ICON1616 ICON DISCARDABLE "resources/1616.ico"
+
+// music
+R_MUSIC RCDATA "resources/music.xm"
+
+// grahpcis
+R_BG_1 BITMAP "resources/frame1.bmp"
+R_BG_2 BITMAP "resources/frame2.bmp"
+
+
+// dialog
+R_MAINDIALOG DIALOGEX 0,0,320,150
+STYLE WS_VISIBLE|DS_SETFONT|WS_EX_TOPMOST|WS_POPUP|WS_EX_TRANSPARENT|DS_CENTER
+EXSTYLE WS_EX_TOPMOST
+BEGIN
+//CONTROL "Example Winapi Keygen:",1006,"Edit",WS_VISIBLE|WS_DISABLED|WS_EX_TRANSPARENT,40,15,100,9
+CTEXT "Example Keygen written in Winapi using UFMOD as XM player.", 1, 30, 10, 260, 10
+CTEXT "See repository for more info: https://github.com/solusipse/winapi-keygen", 1, 30, 25, 260, 10
+END
+
+

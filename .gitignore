@@ -33,3 +33,6 @@
 
 bin/*
 obj/*
+.DS_Store
+
+!ufmod/ufmod.obj
